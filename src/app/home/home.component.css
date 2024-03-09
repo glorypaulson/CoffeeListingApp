@@ -1,0 +1,36 @@
+/* home.component.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1D1F;
+    color: white;
+    margin-top: 220px;
+    border-radius: 10px;
+    padding: 0px 150px 0px 150px;
+  }
+  .container{
+    text-align: center;
+  }
+  .content{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    color: #6F757C;
+    font-size: 16px;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    padding-bottom: 50px;
+  }
+  .tab{
+    background-color: #6F757C;
+    color: #FEF7EE;
+    padding: 10px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,9 @@
+
+<div class="items">
+  <div *ngFor="let coffee of coffees">
+      <img [src]="coffee.image" alt="Coffee Image" class="images">
+      <h2>{{ coffee.name }} {{coffee.price}} </h2>
+      <p>Rating: {{ coffee.rating }} ({{coffee.votes}})</p>
+    </div>
+</div>
+
