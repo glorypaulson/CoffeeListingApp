@@ -1,10 +1,26 @@
-
-.items{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-.images{
-    border-radius: 10px;
+.images {
+  border-radius: 10px;
+}
+.item {
+  position: relative;
+  width: calc(33.33%);
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: center; /* Center align content */
+}
+.popular-tag {
+  background-color: #f6c768; /* Adjust background color */
+  color: #111315; /* Adjust text color */
+  padding: 5px 10px; /* Adjust padding */
+  border-radius: 10px; /* Adjust border radius */
+  position: absolute;
+  top: 5px; /* Adjust distance from top */
+  left: 140px;
+  font-size: 10px; /* Adjust font size */
+  font-weight: bold;
 }
