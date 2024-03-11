@@ -15,4 +15,5 @@ export class CoffeeService {
   getCoffees(): Observable<Coffee[]> {
     return this.http.get<Coffee[]>(this.apiUrl);
   }
+
 }

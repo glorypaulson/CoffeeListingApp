@@ -8,6 +8,7 @@ import { CoffeeService } from '../coffee.service';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit{
+
   coffees: Coffee[] | undefined;
 
   constructor(private coffeeService: CoffeeService) { }
