@@ -1,7 +1,7 @@
 <div class="items">
   <div *ngFor="let coffee of coffees" class="item">
       <img [src]="coffee.image" alt="Coffee Image" class="images">
-      <span><h2>{{ coffee.name }} </h2> <div class="price-tag">{{coffee.price}}</div> </span>
+      <div class="name-price-container"><h2>{{ coffee.name }} </h2> <div>{{coffee.price}}</div> </div> 
       <p> <img src="assets/dccl--frontend-simple-coffee-listing/Star_fill.svg" alt=""> {{ coffee.rating }} ({{coffee.votes}} votes)</p>
       <div *ngIf="coffee.popular" class="popular-tag">Popular</div>
     </div>
